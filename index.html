@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Como Programar em Python</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <h1>Como Programar em Python</h1>
+        <p>Guia prático para começar a programar do zero.</p>
+      </div>
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#basico">Básico</a>
+        <a href="#exemplos">Exemplos</a>
+        <a href="#recursos">Recursos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container">
+        <h2>Aprenda Python com passos simples</h2>
+        <p>Python é uma ótima linguagem para iniciantes e profissionais, com sintaxe clara, vasta comunidade e grandes possibilidades.</p>
+      </div>
+    </section>
+
+    <section id="basico" class="section">
+      <div class="container">
+        <h2>O básico de Python</h2>
+        <p>Comece pelos conceitos mais importantes e pratique em pequenos programas.</p>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Variáveis</h3>
+            <p>Use variáveis para armazenar valores como texto, números e listas.</p>
+            <pre><code>nome = "Andressa"
+idade = 20
+print(nome, idade)</code></pre>
+          </article>
+
+          <article class="card">
+            <h3>Condicionais</h3>
+            <p>Decida o que o programa faz com base em condições.</p>
+            <pre><code>if idade >= 18:
+    print("Maior de idade")
+else:
+    print("Menor de idade")</code></pre>
+          </article>
+
+          <article class="card">
+            <h3>Laços</h3>
+            <p>Repita ações usando loops for e while.</p>
+            <pre><code>for i in range(5):
+    print(i)</code></pre>
+          </article>
+
+          <article class="card">
+            <h3>Funções</h3>
+            <p>Organize o código em blocos reutilizáveis.</p>
+            <pre><code>def saudacao(nome):
+    return f"Olá, {nome}!"
+
+print(saudacao("Andressa"))</code></pre>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="exemplos" class="section section-light">
+      <div class="container">
+        <h2>Exemplo de projeto simples</h2>
+        <p>Vamos criar um programa que lê texto do usuário e conta palavras.</p>
+        <pre><code>texto = input("Digite uma frase: ")
+palavras = texto.split()
+print(f"Sua frase tem {len(palavras)} palavras.")</code></pre>
+        <p>Esse exemplo mostra como receber dados do usuário, processar informações e exibir resultados.</p>
+      </div>
+    </section>
+
+    <section id="recursos" class="section">
+      <div class="container">
+        <h2>Recursos para continuar aprendendo</h2>
+        <ul>
+          <li><strong>Documentação oficial:</strong> <a href="https://www.python.org/doc/" target="_blank" rel="noopener">python.org/doc</a></li>
+          <li><strong>Curso gratuito:</strong> <a href="https://www.codecademy.com/learn/learn-python-3" target="_blank" rel="noopener">Codecademy - Learn Python 3</a></li>
+          <li><strong>Exercícios práticos:</strong> <a href="https://www.beecrowd.com.br/" target="_blank" rel="noopener">beecrowd</a> e <a href="https://www.hackerrank.com/domains/python" target="_blank" rel="noopener">HackerRank</a></li>
+        </ul>
+        <p>Pratique com pequenos projetos como calculadoras, jogos de texto e ferramentas de organização.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 - Como Programar em Python | Andressa</p>
+    </div>
+  </footer>
+</body>
+</html>
